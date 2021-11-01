@@ -1,0 +1,48 @@
+
+body, html {
+  margin: 0;
+  width: auto;
+  background-image: url(galaxy-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+
+.intro{
+  position: relative;
+  top:33%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  background-color: whitesmoke;
+  opacity: 0.5;
+}
+.title{
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  text-align: center;
+  color: white;
+  left: -100%;
+  /*border: 1px solid black;*/
+  transition: left 1s;
+}
+
+.video{
+  position: relative;
+  text-align: center;
+  left: 100%;
+  transition: left 1s;
+}
+
+
+.title-centered, .video-centered{
+  left:0px;
+}
+
+iframe{
+  border-radius: 5%;
+}
+
+
